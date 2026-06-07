@@ -1,16 +1,4 @@
-<div align="center">
-
-# commit-recap
-
-See everything you committed across all your repos since yesterday, in one command.
-
-[![](https://skillicons.dev/icons?i=python,git)](https://skillicons.dev)
-
-</div>
-
----
-
-## The problem
+## You have a standup in five minutes
 
 Daily standups happen at 9am. You committed across three different repos yesterday and you can't remember what any of them were. You either open each repo manually and run `git log`, or you make something up.
 
@@ -33,8 +21,6 @@ This tool scans all git repositories in a directory, filters commits by your nam
   --------------------------------------------
   3 commits across 2 repos
 ```
-
----
 
 ## Usage
 
@@ -67,15 +53,12 @@ python recap.py --verbose                    # include author email per commit
 python recap.py --all                        # show repos with zero commits too
 ```
 
----
-
 ## How it works
 
 Scans the target directory for any folder containing a `.git` subdirectory. For each repo found, runs `git log` with your author name and the specified time range. Results are grouped by repo with commit hash, message, and relative timestamp.
 
 Author name is auto-detected from `git config user.name`. Override anytime with `--author`.
 
----
 
 ## No dependencies
 
@@ -86,9 +69,3 @@ git clone https://github.com/mostafa-ehab22/commit-recap
 cd commit-recap
 python recap.py
 ```
-
----
-
-## License
-
-MIT
