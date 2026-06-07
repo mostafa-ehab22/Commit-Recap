@@ -6,17 +6,18 @@ This tool scans all git repositories in a directory, filters commits by your nam
 
 ```
   Commit Recap  Mostafa Ehab  /  since yesterday
-
   --------------------------------------------
+
   flight-controller  2 commits
 
-    1787b46  Implement PID loop for altitude hold  3 hours ago
-    f2c06a8  Add flight controller base class  5 hours ago
+    1787b46  Implement PID loop for altitude hold  (3 hours ago)
+    f2c06a8  Add flight controller base class  (5 hours ago)
 
   --------------------------------------------
+
   aws-iot-pipeline  1 commit
 
-    d6c471d  Add IoT telemetry Lambda handler  yesterday
+    d6c471d  Add IoT telemetry Lambda handler  (yesterday)
 
   --------------------------------------------
   3 commits across 2 repos
